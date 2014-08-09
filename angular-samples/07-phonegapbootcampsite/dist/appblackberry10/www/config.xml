@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.phonegapbootcamp.appblackberry10" version="1.1.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:rim="http://www.blackberry.com/ns/widgets">
+    <rim:permissions>
+    </rim:permissions>
+    <name>PhoneGap Bootcamp</name>
+    <author>Demian Borba</author>
+    <description>
+       2 days of intense training covering mobile applications using Cordova for multiple mobile platforms, focusing on Single Page Apps and Performance.
+  </description>
+    <access subdomains="true" uri="file:///store/home" />
+    <access subdomains="true" uri="file:///SDCard" />
+    <access subdomains="true" uri="*" />
+    <icon src="res/icon/blackberry10/icon-80.png" />
+    <rim:splash src="res/screen/blackberry10/splash-1280x768.png" />
+    <rim:splash src="res/screen/blackberry10/splash-720x720.png" />
+    <rim:splash src="res/screen/blackberry10/splash-768x1280.png" />
+    <content src="index.html" />
+    <preference name="websecurity" value="disable" />
+    <feature name="com.blackberry.utils" />
+    <feature name="com.blackberry.jpps" />
+    <feature name="com.blackberry.system" value="com.blackberry.system" />
+    <feature name="com.blackberry.pim.lib" />
+    <feature name="Notification" value="Notification" />
+</widget>
