@@ -1,6 +1,6 @@
 var app = angular.module("sampleApp", ["firebase"]);
 app.controller("SampleCtrl", function ($scope, $firebase) {
-    var ref = new Firebase("https://angularsamplemcz.firebaseio.com/data");
+    var ref = new Firebase("https://<seuenderecofirebase>.firebaseio.com/data");
     var sync = $firebase(ref);
     // download the data into a local object
     var syncObject = sync.$asObject();
